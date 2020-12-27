@@ -1,6 +1,6 @@
 const hashMap = {
   addition: (array) => array.reduce((acc, curr) => acc + curr),
-  subtraction: (array) => array.reduce((acc, curr) => acc - curr, 0),
+  subtraction: (array) => array.reduce((acc, curr) => acc - curr),
   multiplication: (array) => array.reduce((acc, curr) => acc * curr),
   division: (a, b) => {
     if (b === 0) return 'Can not divide by zero';
